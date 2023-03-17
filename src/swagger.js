@@ -1,4 +1,5 @@
 const swaggerAutogen = require('swagger-autogen')();
+require('dotenv').config();
 
 const doc = {
   info: {
@@ -7,8 +8,8 @@ const doc = {
   },
   // host: 'localhost:8080',
   // schemes: ['http'],
-  host: 'disney-movies-db.onrender.com',
-  schemes: ['https'],
+  host: process.env.HOST,
+  schemes: [process.env.SCHEME],
   // securityDefinitions: {
   //   oAuthSample: {
   //     type: 'oauth2',

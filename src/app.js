@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require("express");
 const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
 const {auth, requiresAuth} = require('express-openid-connect');
