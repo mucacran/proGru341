@@ -2,8 +2,5 @@
 
 Use nodemon ./src/app.js to start.
 Para ejecutar usa:
-<code>
-npm run devStart <br>
-npm run swagger
-npm start
-</code>
+<pre><code>npm run devStart </code></pre>
+<code>npm run swagger <br> npm start</code>
